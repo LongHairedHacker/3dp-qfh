@@ -22,7 +22,7 @@ module top() {
             }
             
             translate([0, 0, -insert_length])
-                cylinder(r = tube_inner_diameter/2, 
+                cylinder(r = insert_diameter/2, 
                         h = insert_length);
         }
         
