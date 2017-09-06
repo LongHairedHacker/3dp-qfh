@@ -21,7 +21,7 @@ middle_short_loop_arms_height = 36.95;
 middle_long_loop_arms_height = 19.05;
 
 support_cap_outer_dia = 20;
-support_cap_inner_dia = 10;
+support_cap_inner_dia = 14;
 support_cap_hole_height = 5;
 support_cap_hole_dia = 3;
 short_support_cap_height = 12.3;

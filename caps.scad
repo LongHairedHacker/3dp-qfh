@@ -14,15 +14,14 @@ module cap(height) {
         }
         union()  {
             cylinder(d = support_cap_inner_dia,
-                h = height);
+                h = height * 0.75);
             
-            translate([0, 0, height])
-                cylinder(d = insert_hole_dia,
-                    h = insert_length);
+            cylinder(d = insert_hole_dia,
+                    h = height + insert_length);
             
             translate([0, 0, support_cap_hole_height])
             rotate([0, 90, 0])
-            #cylinder(d = support_cap_hole_dia,
+            cylinder(d = support_cap_hole_dia,
                 h = support_cap_outer_dia,
                 center = true);
        }
